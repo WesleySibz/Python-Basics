@@ -1,0 +1,11 @@
+#Here, we use the modulo operator to find the remainder of division operations. 
+We see that 29 % 5 equals 4, 32 % 3 equals 2, and 44 % 2 equals 0.
+The modulo operator is useful in programming when we want to perform an action every nth-time the code is run. 
+Can the result of a modulo operation be larger than the divisor? 
+Why or why not?
+
+my_team = 27%4
+
+print(my_team)
+print(26%4)
+print(28%4)
