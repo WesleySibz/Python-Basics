@@ -1,0 +1,8 @@
+#A list begins and ends with square brackets ([ and ]).
+Each item (i.e., 67 or 70) is separated by a comma (,)
+It’s considered good practice to insert a space () after each comma, 
+but your code will run just fine if you forget the space.
+
+heights = [61, 70, 67, 64, 65]
+
+broken_heights = [65, 71, 59, 62]
