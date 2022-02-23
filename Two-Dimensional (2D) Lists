@@ -1,0 +1,18 @@
+reviously, we saw that we could create a list representing both Noelle’s name and height:
+
+noelle = ["Noelle", 61]
+We can put several of these lists into one list, such that each entry in the list represents a student and their height:
+
+heights = [["Noelle", 61], ["Ava", 70], ["Sam", 67], ["Mia", 64]]
+We will often find that a two-dimensional list is a very good structure for representing grids such as games like tic-tac-toe.
+
+#A 2d list with three lists in each of the indices. 
+tic_tac_toe = [
+            ["X","O","X"], 
+            ["O","X","O"], 
+            ["O","O","X"]
+]
+Let’s practice creating our own 2D list!
+
+heights = [["Jenny", 61], ["Alexus", 70], ["Sam", 67], ["Grace", 64], ["Vik",68]]
+ages = [["Aaron",15],["Dhruti",16]]
