@@ -1,0 +1,25 @@
+#The .pop() method takes an optional single input:
+
+#The index for the element you want to remove.
+#To see it in action, let’s consider a list called cs_topics that stores a collection of topics one might study in a computer science program.
+
+#cs_topics = ["Python", "Data Structures", "Balloon Making", "Algorithms", "Clowns 101"]
+#Two of these topics don’t look like they belong, let’s see how we remove them using .pop().
+
+#First let’s remove "Clowns 101":
+
+#removed_element = cs_topics.pop()
+#print(cs_topics)print(removed_element)
+#Would output:
+#['Python', 'Data Structures', 'Balloon Making', 'Algorithms']
+#'Clowns 101'
+
+data_science_topics = ["Machine Learning", "SQL", "Pandas", "Algorithms", "Statistics", "Python 3"]
+print(data_science_topics)
+
+# Your code below: 
+data_science_topics.pop()
+print(data_science_topics)
+data_science_topics.pop(3)
+print(data_science_topics)
+
