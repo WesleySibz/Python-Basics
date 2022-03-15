@@ -1,0 +1,21 @@
+For example, range(2, 9) would generate numbers starting at 2 and ending at 8 (just before 9):
+
+my_list = range(2, 9)
+print(list(my_list))
+Would output:
+
+[2, 3, 4, 5, 6, 7, 8]
+If we use a third input, we can create a list that “skips” numbers.
+
+For example, range(2, 9, 2) will give us a list where each number is 2 greater than the previous number:
+
+my_range2 = range(2, 9, 2)
+print(list(my_range2))
+Would output:
+
+[2, 4, 6, 8]
+
+# Your code below: 
+
+range_five_three = range(5, 15,3)
+range_diff_five = range(0,40,5)
