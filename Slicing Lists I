@@ -1,0 +1,16 @@
+We can do this using the following syntax: letters[start:end], where:
+
+start is the index of the first element that we want to include in our selection. 
+In this case, we want to start at "b", which has index 1.
+end is the index of one more than the last index that we want to include. 
+The last element we want is "f", which has index 5, so end needs to be 6.
+
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+beginning = suitcase[0:4]
+print(beginning)
+# Your code below: 
+beginning = suitcase[0:2]
+print(beginning)
+middle = suitcase[2:4]
+print(middle)
