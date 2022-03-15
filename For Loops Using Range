@@ -1,0 +1,16 @@
+We can then use the range directly in our for loops as the collection to perform a six-step iteration:
+
+for temp in range(6):
+  print("Learning Loops!")
+Would output:
+
+Learning Loops!
+Learning Loops!
+Learning Loops!
+Learning Loops!
+Learning Loops!
+Learning Loops!
+
+promise = "I will finish the python loops module!"
+for p in range (5):
+  print(promise)
